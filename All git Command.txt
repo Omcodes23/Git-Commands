@@ -1,0 +1,18 @@
+1.git config --global user.name "om" <!--For adding user name-->
+2.git config --global user.email "omvataliya23@gmail.com" <!--For adding user email-->
+3.git config --list <!--Feaching list-->
+4.git config --global core.editor vim <!--Defining file editor for terminal-->
+5.git config user.name <!--To see user's name-->
+6.git config user.email <!--To see user's email -->
+
+	<!--Main Command's are Starting Form Here--> (1.init >> For making repository
+						      2.add  >> For adding files to staging area
+						      3.commit >> For taking spanshort of all added files)
+
+7.git status <!--Checking status-->
+8.git init <!--Making repository-->
+9.git add --a <!--Adding all files to staging area-->
+10.git commit <!--Open editor for commit(spanshort) name-->
+11.git commit -m "Initial Commit"(commit name) <!--Directally add commit name-->
+12.git log <!--Giving report of all commits with name-->
+13.git add first.txt(file name) <!--Sapretely adding files to staging area-->
