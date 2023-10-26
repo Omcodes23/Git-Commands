@@ -1,4 +1,4 @@
-# README: Git Commands
+# Git Commands
 
 This README file provides a quick reference guide to some essential Git commands for version control. Whether you're a beginner or an experienced developer, these commands will help you manage your Git repositories effectively. Make sure you have Git installed on your system before using these commands.
 
