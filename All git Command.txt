@@ -1,18 +1,99 @@
-1.git config --global user.name "om" <!--For adding user name-->
-2.git config --global user.email "omvataliya23@gmail.com" <!--For adding user email-->
-3.git config --list <!--Feaching list-->
-4.git config --global core.editor vim <!--Defining file editor for terminal-->
-5.git config user.name <!--To see user's name-->
-6.git config user.email <!--To see user's email -->
+Certainly! Here are the Git commands in simple text:
 
-	<!--Main Command's are Starting Form Here--> (1.init >> For making repository
-						      2.add  >> For adding files to staging area
-						      3.commit >> For taking spanshort of all added files)
+## Git Configuration
 
-7.git status <!--Checking status-->
-8.git init <!--Making repository-->
-9.git add --a <!--Adding all files to staging area-->
-10.git commit <!--Open editor for commit(spanshort) name-->
-11.git commit -m "Initial Commit"(commit name) <!--Directally add commit name-->
-12.git log <!--Giving report of all commits with name-->
-13.git add first.txt(file name) <!--Sapretely adding files to staging area-->
+Before using Git, set your name and email address:
+
+- Set your name: `git config --global user.name "Your Name"`
+- Set your email: `git config --global user.email "youremail@example.com"`
+
+## Creating a New Repository
+
+To create a new Git repository:
+
+- Initialize a new repository: `git init`
+
+## Cloning a Repository
+
+To clone an existing repository from a remote URL:
+
+- Clone a repository: `git clone <repository_url>`
+
+## Adding and Committing Changes
+
+1. Stage changes for commit:
+
+- Stage a specific file: `git add <filename>`
+- Stage all changes: `git add .`
+
+2. Commit staged changes:
+
+- Commit with a message: `git commit -m "Your commit message"`
+
+## Branching
+
+1. Create a new branch:
+
+- Create a branch: `git branch <branch_name>`
+
+2. Switch to a branch:
+
+- Switch to a branch: `git checkout <branch_name>`
+
+3. Create and switch to a new branch:
+
+- Create and switch to a new branch: `git checkout -b <new_branch_name>`
+
+## Merging
+
+Merge changes from one branch into the current branch:
+
+- Merge a branch: `git merge <branch_name>`
+
+## Remote Repositories
+
+1. Add a remote repository:
+
+- Add a remote: `git remote add <remote_name> <repository_url>`
+
+2. Push changes to a remote repository:
+
+- Push changes: `git push <remote_name> <branch_name>`
+
+3. Pull changes from a remote repository:
+
+- Pull changes: `git pull <remote_name> <branch_name>`
+
+## Undoing Changes
+
+1. Discard changes in a file:
+
+- Discard changes in a file: `git checkout -- <filename>`
+
+2. Unstage changes:
+
+- Unstage changes: `git reset`
+
+3. Amend the last commit (use with caution):
+
+- Amend last commit: `git commit --amend -m "New commit message"`
+
+## Viewing Information
+
+1. View the status of your repository:
+
+- Check repository status: `git status`
+
+2. View the commit history:
+
+- View commit history: `git log`
+
+3. View a list of branches:
+
+- List branches: `git branch`
+
+4. View changes made in a specific commit:
+
+- Show changes in a commit: `git show <commit_hash>`
+
+These are the essential Git commands. Make sure to commit regularly and write clear commit messages to maintain a clean version history. Happy coding!
